@@ -5,8 +5,8 @@
 </div>
 
 ## ⚙️Projeto
-* Projeto criado pelo **João Carlos Lima e Silva**
-* **Link do canal:** https://www.youtube.com/channel/UCStdvHzCL5n76P7WJqGBGzA
+<p>Projeto criado pelo <strong>João Carlos Lima e Silva</strong></p>
+<p><strong>Link do canal:</strong> https://www.youtube.com/channel/UCStdvHzCL5n76P7WJqGBGzA</p>
 
 ## Ícones
 
