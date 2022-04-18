@@ -326,3 +326,86 @@ header {
   object-fit: cover;
   width: 100%;
 }
+
+.projetos {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  width: 20rem;
+  height: 30rem;
+  position: relative;
+}
+
+.card-img-wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: #262626;
+  border-radius: 0.5rem;
+}
+
+.card-img-wrapper img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+  opacity: 0.5;
+  transition: opacity 0.3s;
+}
+
+.card:hover .card-img-wrapper img {
+  opacity: 0.5;
+}
+
+.card-info {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  bottom: 0;
+  padding: 2rem;
+  text-shadow: 0.3rem 0.2rem 0.3rem rgba(0, 0, 0, 0.4);
+  transition: all 0.3s;
+}
+
+.card-info h2 {
+  font-family: var(--fonte-primary);
+  font-size: 2rem;
+  font-weight: 500;
+  color: #eee;
+}
+
+.card-info h3 {
+  font-family: var(--fonte-action);
+  font-weight: bolder;
+  color: #005c97;
+  margin-bottom: 1.5rem;
+}
+
+.card-info p {
+  font-family: var(--fonte-segundary);
+  color: #eee;
+  font-weight: bold;
+  width: 400;
+  margin-bottom: 2rem;
+}
+
+.card-info button {
+  width: 8rem;
+  height: 2.5rem;
+  background: #005c97;
+  background: -webkit-linear-gradient(to right, #005c97, #363795);
+  background: linear-gradient(to right, #005c97, #363795);
+  font-family: var(--fonte-action);
+  font-size: 1rem;
+  color: #eee;
+  border-radius: 0.5rem;
+  border: none;
+  box-shadow: 0 0.1rem 0.8rem rgba(0, 0, 0, 0.4);
+}
+
+.card:hover .card-info {
+  bottom: 2rem;
+  opacity: 1;
+  visibility: visible;
+}
