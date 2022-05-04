@@ -18,7 +18,7 @@
   </a>
 </div>
 
-<div>
+<div align="center">
   <img src=".github/preview.png" width="100%" />
 </div>
 
